@@ -19,6 +19,10 @@ public class Ptak extends Zvire {
 	public String vydavaZvuk() {
 		return zvuk;
 	}
+	
+	public String getMaKridla() {
+		return maKridla;
+	}
 
 
 	
