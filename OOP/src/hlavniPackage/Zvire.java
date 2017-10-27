@@ -1,4 +1,4 @@
-package hlavni;
+package hlavniPackage;
 
 //import java.util.function.Function;
 

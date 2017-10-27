@@ -1,4 +1,6 @@
-package hlavni;
+package hlavniPackage;
+
+//import hlavni.Zvire;
 
 public class Ptak extends Zvire {
 
@@ -7,9 +9,9 @@ public class Ptak extends Zvire {
 	private String maKridla;
 
 	public Ptak() {
-		this.pohyb="Jsem pták, mávám køídly a létám";
-		this.zvuk="Jsem pták a zpívám";
-		this.maKridla="Jsem pták a mám dlouhá køídla";
+		this.pohyb="Jsem ptï¿½k, mï¿½vï¿½m kï¿½ï¿½dly a lï¿½tï¿½m";
+		this.zvuk="Jsem ptï¿½k a zpï¿½vï¿½m";
+		this.maKridla="Jsem ptï¿½k a mï¿½m dlouhï¿½ kï¿½ï¿½dla";
 	};
 
 	public String pohybujeSe() {

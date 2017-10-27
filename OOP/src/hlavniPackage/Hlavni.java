@@ -1,4 +1,4 @@
-package hlavni;
+package hlavniPackage;
 
 public class Hlavni {
 
@@ -6,10 +6,11 @@ public class Hlavni {
 		System.out.println("*****************************************");
 		System.out.println("*          ZVIRE, PTAK                  *");
 		System.out.println("*****************************************");
+		
 		Zvire zvire = new Zvire();
 		System.out.println(zvire.pohybujeSe());
 		System.out.println(zvire.vydavaZvuk());
-		Ptak ptak = new Ptak();
+		 Ptak ptak = new Ptak();
 		System.out.println(ptak.pohybujeSe());
 		System.out.println(ptak.vydavaZvuk());
 		System.out.println(zvire.pohybujeSe());
